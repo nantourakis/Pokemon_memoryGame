@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="220" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="17" y="40" width="380" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.023529411764705882" blue="0.023529411764705882" alpha="1"/>
+                                <constraints>
+                                    <constraint id="224" firstAttribute="height" constant="40"/>
+                                    <constraint id="225" firstAttribute="height" constant="40"/>
+                                    <constraint id="447" firstAttribute="height" constant="40"/>
+                                </constraints>
+                            </label>
+                            <view contentMode="scaleToFill" id="448" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="100" width="374" height="360"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="0.666666666666667" alpha="1"/>
+                                <constraints>
+                                    <constraint id="452" firstAttribute="height" constant="360"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="453" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="481" width="377" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="highlightedColor"/>
+                                <color key="textColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="1" alpha="1"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" colorSpace="calibratedRGB" red="0" green="0.47843137254902" blue="1" alpha="1"/>
+                                <constraints>
+                                    <constraint id="457" firstAttribute="height" constant="40"/>
+                                </constraints>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="458" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="552" width="377" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="0" alpha="1"/>
+                                <state key="normal" title="Reset Game">
+                                    <color key="titleColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="1" alpha="1"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="462" firstAttribute="height" constant="40"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="ResetGame_Clicked:" destination="BYZ-38-t0r" id="486" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="444" firstItem="220" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20"/>
+                            <constraint id="445" firstAttribute="leadingMargin" secondItem="220" secondAttribute="leading" constant="3"/>
+                            <constraint id="446" firstItem="220" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="3"/>
+                            <constraint id="449" firstItem="448" firstAttribute="top" secondItem="220" secondAttribute="bottom" constant="20"/>
+                            <constraint id="450" firstItem="448" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="451" firstItem="448" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="454" firstItem="453" firstAttribute="top" secondItem="448" secondAttribute="bottom" constant="21"/>
+                            <constraint id="455" firstItem="453" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="456" firstItem="453" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="3"/>
+                            <constraint id="459" firstItem="458" firstAttribute="top" secondItem="453" secondAttribute="bottom" constant="31"/>
+                            <constraint id="460" firstItem="458" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="461" firstItem="458" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="220" id="name-outlet-220"/>
+                        <outlet property="gameBoardView" destination="448" id="name-outlet-448"/>
+                        <outlet property="TimeLabel" destination="453" id="name-outlet-453"/>
+                        <outlet property="resetGameButton" destination="458" id="name-outlet-458"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

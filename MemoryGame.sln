@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryGame", "MemoryGame.csproj", "{241234E8-B3AE-49D1-A40B-EE6FA14CB762}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Debug|iPhone.Build.0 = Debug|iPhone
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Release|iPhone.ActiveCfg = Release|iPhone
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Release|iPhone.Build.0 = Release|iPhone
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Release|iPhone.Deploy.0 = Release|iPhone
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{241234E8-B3AE-49D1-A40B-EE6FA14CB762}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7702640-FAE9-462C-8D68-348128DA0222}
+	EndGlobalSection
+EndGlobal
